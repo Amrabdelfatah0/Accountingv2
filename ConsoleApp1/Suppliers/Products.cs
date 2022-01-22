@@ -7,7 +7,7 @@ namespace ConsoleApp1.Suppliers
 {
     public class Products : Base
     {
-        public string productName { get; set; }
-        public string imagePass { get; set; }
+        public string productName { get; set; }//اسم المنتج
+        public string imagePass { get; set; }//صورة المنتج
     }
 }

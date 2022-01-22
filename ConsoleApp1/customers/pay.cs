@@ -9,9 +9,9 @@ namespace Accounting.bases.Model
     public class pay : BaseWithDate
     {
         public Clients? Clients { get; set; }
-        public bool PaymentType { get; set; }
-        public double Amount { get; set; }
-        public bool Journal { get; set; }
+        public bool PaymentType { get; set; }//نوع السداد
+        public double Amount { get; set; }//المبلغ أو الدفعة
+        public bool Journal { get; set; }//دفتر اليومية
         
         public List<Invoices> Invoices { get; set; }    
 

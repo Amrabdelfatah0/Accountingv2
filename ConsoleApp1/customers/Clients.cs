@@ -9,13 +9,12 @@ namespace Accounting.bases.Model
 {
     public class Clients : Base
     {
-        public string Name { get; set; }
-        public string Adress { get; set; }
-        public int Id { get; set; }
-        public int Mobile { get; set; }
-        public string Email { get; set; }
-        public List<pay>? Pays { get; set; }
-        public List<Invoices> Invoices { get; set; }
+        public string Name { get; set; }//اسم العميل 
+        public string Adress { get; set; }//عنوان العميل 
+        public int Mobile { get; set; }//تليفون العميل 
+        public string Email { get; set; }//الايميل 
+        public List<pay>? Pays { get; set; } //ليست من الدفعات
+        public List<Invoices> Invoices { get; set; }//ليست من الفواتير 
 
 
 
