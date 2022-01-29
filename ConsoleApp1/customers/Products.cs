@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accounting.bases.Model
+namespace ConsoleApp1.bases.Model
 {
-    public class Products : Base
+    public class Products : BaseWithName
 
     {
-        public string? Name { get; set; }//اسم المنتج
-        public bool ProductType { get; set; }//نوع المنتج
+        public bool IsService { get; set; } = false;// default value منتج أم خدمة
         public double SellingPrice { get; set; }//سعر البيع
         public double Cost { get; set; }//التكلفة
-        public string? Description { get; set; }//الوصف
+        public string Description { get; set; }//الوصف
 
         public List<InvoiceDetails> InvoiceDetails { get; set; }
 

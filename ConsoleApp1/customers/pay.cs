@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accounting.bases.Model
+namespace ConsoleApp1.bases.Model
 {
-    public class pay : BaseWithDate
+    public class pay : BaseWithName
     {
         public Clients? Clients { get; set; }
         public bool PaymentType { get; set; }//نوع السداد

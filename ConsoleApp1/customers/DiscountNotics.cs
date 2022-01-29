@@ -1,9 +1,9 @@
-﻿using Accounting.bases;
+﻿using ConsoleApp1.bases;
 using System;
 
-namespace Accounting.bases.Model
+namespace ConsoleApp1.bases.Model
 {
-    public class DiscountNotices : BaseWithDate
+    public class DiscountNotices : BaseWithName
     {
         public string DiscountNoticeForACustomer { get; set; }
         public int BatchReferenceNumber { get; set; }

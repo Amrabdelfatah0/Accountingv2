@@ -1,10 +1,10 @@
-﻿using Accounting.bases;
+﻿using ConsoleApp1.bases;
 using System;
 using System.Collections.Generic;
 
-namespace Accounting.bases.Model
+namespace ConsoleApp1.bases.Model
 {
-    public class Invoices : BaseWithDate
+    public class Invoices : BaseWithName
     {
         public Clients? Clients { get; set; }
         public int BatchReferenceNumber { get; set; }//الرقم المرجعي

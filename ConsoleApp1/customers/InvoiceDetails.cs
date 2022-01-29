@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Accounting.bases.Model
+namespace ConsoleApp1.bases.Model
 {
     public class InvoiceDetails
     {
@@ -12,7 +12,6 @@ namespace Accounting.bases.Model
 
 
         public  int  Quantity { get; set; } //الكمية
-
 
 
     }

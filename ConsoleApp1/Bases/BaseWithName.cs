@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accounting.bases
+namespace ConsoleApp1.bases
 {
-    public class BaseWithDate : Base
-
+    public class BaseWithName : Base
     {
-        public DateTime? Date { get; set; }
-
+        public string Name { get; set; }
     }
 }
