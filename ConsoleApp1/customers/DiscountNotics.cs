@@ -3,7 +3,7 @@ using System;
 
 namespace ConsoleApp1.bases.Model
 {
-    public class DiscountNotices : BaseWithName
+    public class DiscountNotices : BaseWithName 
     {
         public string DiscountNoticeForACustomer { get; set; }
         public int BatchReferenceNumber { get; set; }
