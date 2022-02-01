@@ -5,9 +5,12 @@ using System.Text;
 
 namespace ConsoleApp1.DeferredFinance
 {
-    public class DeferredRevenue: BaseWithName
+    public class DeferredRevenue: Parent
 
     {
-        
+        public string DeferredRevenueCalculation { get; set; }
+        public string RevenueAccount { get; set; }
+
+
     }
 }

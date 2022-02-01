@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApp1.DeferredFinance
 {
-    public class Parent :Base 
+    public class Parent : BaseWithName
     {
         public int OriginalValue { get; set; }
         public DateTime AcquisitionDate { get; set; }
@@ -16,7 +16,6 @@ namespace ConsoleApp1.DeferredFinance
         public double AmountLeftProve { get; set; }
         public double AmountDeferredExpenses { get; set; }
         public string Daily { get; set; }
-
 
 
     }
