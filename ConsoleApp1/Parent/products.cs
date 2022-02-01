@@ -19,6 +19,8 @@ namespace ConsoleApp1.Parent
         public List<InvoiceDetails> InvoiceDetails { get; set; }
         public string imagePass { get; set; }//صورة المنتج
 
+        public Invoices Invoices { get; set; }
+
 
     }
 }
