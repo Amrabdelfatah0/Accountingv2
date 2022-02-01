@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.customers;
+using ConsoleApp1.Parent;
 using ConsoleApp1.Suppliers;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace ConsoleApp1.bases.Model
 
         public List<Purchasesbill> PurchasesBill { get; set; }
 
+        public Invoices Invoices { get; set; }
 
     }
 }
