@@ -11,6 +11,6 @@ namespace ConsoleApp1.bases.Model
     public class Clients : People
     {
         public List<pay> Pays { get; set; } //ليست من الدفعات
-        public List<Invoices> Invoices { get; set; }//ليست من الفواتير 
+        public List<salesbill> Invoices { get; set; }//ليست من الفواتير 
     }
 }

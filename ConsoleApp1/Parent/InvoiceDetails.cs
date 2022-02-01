@@ -1,12 +1,13 @@
-﻿using System;
+﻿using ConsoleApp1.bases.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1.bases.Model
+namespace ConsoleApp1.Parent
 {
     public class InvoiceDetails
     {
-        public Invoices Invoices { get; set; }//اوبجكت من  الفاتورة
+        public salesbill Invoices { get; set; }//اوبجكت من  الفاتورة
 
         public Products Products { get; set; }//اوبجكت من  المنتجات
 

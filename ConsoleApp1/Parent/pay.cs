@@ -15,7 +15,7 @@ namespace ConsoleApp1.bases.Model
         public bool IsMoverdInterial { get; set; }//نقل داخلي
         public JournalType journalType { get; set; }//نوع دفتر اليومية
         public string Descriptation { get; set; }//بيان
-        public List<Invoices> Invoices { get; set; }    
+        public List<salesbill> Invoices { get; set; }    
 
 
     }
