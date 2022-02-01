@@ -5,12 +5,9 @@ using System.Text;
 
 namespace ConsoleApp1.DeferredFinance
 {
-    public class deferredExpenses : Parent
-
+    public class DeferredExpenses : Deferred
     {
-        public string deferredExpensesCalculation { get; set; }
-        public string expense account { get; set; }
-
-
+        public string DeferredExpensesCalculation { get; set; }//not string
+        public string ExpenseAccount { get; set; }//not string
     }
 }

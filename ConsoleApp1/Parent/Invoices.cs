@@ -6,20 +6,14 @@ using System.Text;
 
 namespace ConsoleApp1.Parent
 {
-    public class Invoices : Base
+    public class Invoices : Base //parent
 
     {
-
-        public string InvoiceDetails { get; set; }
         public DateTime InvoiceDate { get; set; }
         public DateTime DueDate { get; set; }
         public List<Products> Products { get; set; } 
-        public List<pay> Pay { get; set; }
+        public List<Payment> Pay { get; set; }
         public int BatchReferenceNumber { get; set; }
         public List<InvoiceDetails> InvoiceDetails { get; set; }
-
-
-
-
     }
 }

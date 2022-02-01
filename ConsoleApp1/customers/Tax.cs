@@ -6,7 +6,6 @@ namespace ConsoleApp1.bases.Model
 {
     public class Tax
     {
-        public List<salesbill> Invoices { get; set; }
-
+        public List<SalesBill> Invoices { get; set; }
     }
 }
