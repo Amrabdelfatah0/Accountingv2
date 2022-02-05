@@ -7,8 +7,8 @@ namespace ConsoleApp1.DeferredFinance
 {
     public class DeferredRevenue: Deferred
     {
-        public DeferredRevenueCalculation DeferredRevenueCalculation { get; set; }//not string
-        public RevenueAccount RevenueAccount { get; set; }//not string
+        public Acount DeferredRevenueCalculation { get; set; }//not string
+        public Acount RevenueAccount { get; set; }//not string
 
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1.DeferredFinance
 {
-    public class DeferredRevenueCalculation
+    public class Acount
     {
         public List<DeferredRevenue> DeferredRevenue { get; set; }
     }
