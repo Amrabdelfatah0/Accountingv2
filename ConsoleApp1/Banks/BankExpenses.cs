@@ -7,10 +7,10 @@ namespace ConsoleApp1.Banks
 {
     internal class BankExpenses : BaseWithName
     {
-        public string Type { get; set; }
+        public enum Type {  }
         public bool Checkout { get; set; }
-        public string DiaryAvailability { get; set; }
-        public string NewItem { get; set; }
+        public string JournalsAvailability { get; set; }
+        public enum NewItem { }
 
         
     }
