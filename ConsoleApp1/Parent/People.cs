@@ -11,5 +11,6 @@ namespace ConsoleApp1.Parent
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Contact contact { get; set; }
+       
     }
 }
