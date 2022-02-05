@@ -19,5 +19,7 @@ namespace ConsoleApp1.Assets
         public enum DrainingAccount { }
         public enum ExpenseAccount {  }
         public enum Journal {  }
+
+        
     }
 }
