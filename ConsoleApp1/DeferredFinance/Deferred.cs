@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static ConsoleApp1.Assets.assets;
 
 namespace ConsoleApp1.DeferredFinance
 {
@@ -9,13 +10,13 @@ namespace ConsoleApp1.DeferredFinance
     {
         public int OriginalValue { get; set; }
         public DateTime AcquisitionDate { get; set; }
-        public string TheNumberInstallments { get; set; }// not string 
+        public DurationType TheNumberInstallments { get; set; }// not string 
         // create property of Duration type Enum
         // create Agreed Time 
         public DateTime DateFirstInstallments { get; set; }
-        public string Currency { get; set; } // object
+        public Currency Currency { get; set; } // object
         public double AmountLeftProve { get; set; }
         public double AmountDeferredExpenses { get; set; }
-        public string Daily { get; set; }//not string
+        public Daily Daily { get; set; }//not string
     }
 }
