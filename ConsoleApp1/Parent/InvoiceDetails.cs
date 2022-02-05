@@ -5,15 +5,12 @@ using System.Text;
 
 namespace ConsoleApp1.Parent
 {
-    public class InvoiceDetails
+    public class InvoiceDetails //parent 
     {
-        public salesbill Invoices { get; set; }//اوبجكت من  الفاتورة
-
+        public SalesBill Invoices { get; set; }//اوبجكت من  الفاتورة
         public Products Products { get; set; }//اوبجكت من  المنتجات
-
-
         public  int  Quantity { get; set; } //الكمية
-
-
+        // property of Invoice , becouse it is one to many relationship
+        // property of total 
     }
 }
