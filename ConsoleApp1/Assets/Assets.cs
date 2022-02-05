@@ -7,14 +7,17 @@ namespace ConsoleApp1.Assets
 {
     public class assets : BaseWithName
     {
-        public int OriginalAmount { get; set; }
-        public string Currency { get; set; }
-        public string Method { get; set; }
-        public string Duration { get; set; }
-        public DateTime StartDraining { get; set; }
-        public string FixedAssetAccount { get; set; }
-        public string DrainingAccount { get; set; }
-        public string ExpenseAccount { get; set; }
-        public string Daily { get; set; }
+        public int OriginalValue { get; set; }
+        public enum Currency {}
+        public enum Method { }//اي سر انه مش راضي ياخد get?
+        public double NotDepreciableValue { get; set; }
+        public double BookValue { get; set; }
+
+        public int Duration { get; set; }
+        public DateTime StartDepreciating { get; set; }
+        public enum FixedAssetAccount {  }
+        public enum DrainingAccount { }
+        public enum ExpenseAccount {  }
+        public enum Journal {  }
     }
 }

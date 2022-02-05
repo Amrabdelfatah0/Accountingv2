@@ -11,6 +11,7 @@ namespace ConsoleApp1.Banks
         public bool Checkout { get; set; }
         public string DiaryAvailability { get; set; }
         public string NewItem { get; set; }
+
         
     }
 }
