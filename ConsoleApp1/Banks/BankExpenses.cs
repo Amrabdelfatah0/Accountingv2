@@ -11,7 +11,5 @@ namespace ConsoleApp1.Banks
         public bool Checkout { get; set; }
         public string JournalsAvailability { get; set; }
         public enum NewItem { }
-
-        
     }
 }
