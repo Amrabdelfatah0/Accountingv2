@@ -5,8 +5,9 @@ using System.Text;
 
 namespace ConsoleApp1.Recruitment
 {
-    public class RefuseReasons : BaseWithName
+    public class Salary:Base
     {
-
+        public string Extraلآenefits { get; set; }
+        public double SalaryValue { get; set; }
     }
 }

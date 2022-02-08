@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApp1.Recruitment
 {
-    public class RefuseReasons : BaseWithName
+    public class Source :BaseWithName
     {
 
     }

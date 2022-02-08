@@ -5,8 +5,8 @@ using System.Text;
 
 namespace ConsoleApp1.Recruitment
 {
-    public class RefuseReasons : BaseWithName
+    public class Qualification : BaseWithName
     {
-
+        public AppointmentRequests AppointmentRequests { get; set; }
     }
 }

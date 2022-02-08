@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.bases;
+using ConsoleApp1.Recruitment;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,7 +19,7 @@ namespace ConsoleApp1.Employes
         public enum WorkHours { }
         public enum TimeZone { }
 
-
+        public CreateJobPosition CreateJobPosition { get; set; } 
 
 
 
