@@ -6,6 +6,7 @@ namespace ConsoleApp1.DeferredFinance
 {
     public enum DurationType
     {
-
+        Month,
+        Year,
     }
 }
